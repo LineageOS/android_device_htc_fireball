@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1aca2d91_96e18a01",
+        "filename": "overlay/packages/apps/Phone/res/values/network_mode.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2013-07-29T09:48:06Z",
+      "side": 1,
+      "message": "accidental addition?",
+      "revId": "b7d952cdeba4538cef3e55c8541febe8e43df335",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
