@@ -22,6 +22,7 @@
 #define BTA_DISABLE_DELAY 1000 /* in milliseconds */
 #define BLUETOOTH_QTI_SW TRUE
 #define BTA_HOST_INTERLEAVE_SEARCH  TRUE
+#define BTA_SKIP_BLE_READ_REMOTE_FEAT TRUE
 #define SC_MODE_INCLUDED FALSE
 
 /* Defined if the kernel does not have support for CLOCK_BOOTTIME_ALARM */
