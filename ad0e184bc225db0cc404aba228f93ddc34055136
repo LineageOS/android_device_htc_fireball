@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_e8a1be47",
+        "filename": "bluetooth/bdroid_buildcfg.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2016-06-06T12:36:00Z",
+      "side": 1,
+      "message": "oops, this doesn\u0027t exist anymore",
+      "revId": "ad0e184bc225db0cc404aba228f93ddc34055136",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
