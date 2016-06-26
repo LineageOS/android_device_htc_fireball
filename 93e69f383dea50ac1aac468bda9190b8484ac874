@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_7a86c615",
+        "filename": "configs/audio_platform_info.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2016-06-26T03:39:22Z",
+      "side": 1,
+      "message": "TODO",
+      "revId": "93e69f383dea50ac1aac468bda9190b8484ac874",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_1a7f9215",
+        "filename": "configs/audio_policy.conf",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2016-06-26T03:39:22Z",
+      "side": 1,
+      "message": "TODO",
+      "revId": "93e69f383dea50ac1aac468bda9190b8484ac874",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
