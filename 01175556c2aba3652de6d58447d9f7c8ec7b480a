@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_1afa32bc",
+        "filename": "configs/audio_platform_info.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2016-06-26T01:45:03Z",
+      "side": 1,
+      "message": "not a valid pcm, perhaps low latency is not supported. error:\n\nE audio_hw_primary: start_output_stream: cannot open device \u0027/dev/snd/pcmC0D14p\u0027: No such file or directory",
+      "revId": "01175556c2aba3652de6d58447d9f7c8ec7b480a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
