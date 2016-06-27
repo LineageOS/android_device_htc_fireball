@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_2488f21d",
+        "filename": "system.prop",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-06-27T01:39:42Z",
+      "side": 1,
+      "message": "A comes before S, but R also comes before S, so meh",
+      "range": {
+        "startLine": 18,
+        "startChar": 2,
+        "endLine": 18,
+        "endChar": 7
+      },
+      "revId": "40439f7926f20ca5b2dc617abb03c8d5d47fbd95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
