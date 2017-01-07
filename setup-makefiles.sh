@@ -18,6 +18,7 @@ set -e
 
 export DEVICE=fireball
 export DEVICE_COMMON=s4-common
+export INITIAL_COPYRIGHT_YEAR=2013
 export VENDOR=htc
 
 ./../$DEVICE_COMMON/setup-makefiles.sh $@
