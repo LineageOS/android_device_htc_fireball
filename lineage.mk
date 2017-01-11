@@ -1,3 +1,4 @@
+# Copyright 2017 The LineageOS Project
 # Copyright 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,11 +15,11 @@
 
 $(call inherit-product, device/htc/fireball/full_fireball.mk)
 
-# Inherit CM full phone configuration
+# Inherit LineageOS full phone configuration
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Device naming
-PRODUCT_NAME := cm_fireball
+PRODUCT_NAME := lineage_fireball
 
 # Override build props
 PRODUCT_BUILD_PROP_OVERRIDES += \
