@@ -50,6 +50,7 @@
     <ctl name="HPHL DAC Switch" value="0" />
     <ctl name="HPHL Volume" value="0" />
     <ctl name="HPHR Volume" value="0" />
+    <ctl name="Internal BTSCO SampleRate" value="8000" />
     <ctl name="Internal FM RX Volume" value="0" />
     <ctl name="INTERNAL_BT_SCO_RX Audio Mixer MultiMedia1" value="0" />
     <ctl name="INTERNAL_BT_SCO_RX Audio Mixer MultiMedia3" value="0" />
@@ -69,6 +70,8 @@
     <ctl name="MultiMedia1 Mixer INTERNAL_BT_SCO_TX" value="0" />
     <ctl name="MultiMedia1 Mixer INTERNAL_FM_TX" value="0" />
     <ctl name="MultiMedia1 Mixer SLIM_0_TX" value="0" />
+    <ctl name="MultiMedia1 Mixer VOC_REC_DL" value="0" />
+    <ctl name="MultiMedia1 Mixer VOC_REC_UL" value="0" />
     <ctl name="MultiMedia2 Mixer INTERNAL_FM_TX" value="0" />
     <ctl name="MultiMedia4 Mixer SLIM_0_TX" value="0" />
     <ctl name="MultiMedia5 Mixer AFE_PCM_TX" value="0" />
@@ -95,7 +98,6 @@
     <ctl name="SLIM_0_RX_Voice Mixer CSVoice" value="0" />
     <ctl name="SLIM_0_RX_Voice Mixer Voip" value="0" />
     <ctl name="SLIM_0_TX Channels" value="One" />
-    <ctl name="Internal BTSCO SampleRate" value="8000" />
     <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia1" value="0" />
     <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia3" value="0" />
     <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia4" value="0" />
@@ -184,7 +186,7 @@
 
     <!-- HiFi Lowlatency Rec -->
     <path name="low-latency-record">
-        <ctl name="MultiMedia5 Mixer SLIMBUS_0_TX" value="1" />
+        <ctl name="MultiMedia5 Mixer SLIM_0_TX" value="1" />
     </path>
 
     <!-- HiFi Lowlatency RecBT SCO Tx -->
