@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Copyright (C) 2016 The CyanogenMod Project
+<!-- Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2016 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -179,6 +180,11 @@
         <ctl name="MultiMedia1 Mixer INTERNAL_BT_SCO_TX" value="1" />
     </path>
 
+    <!-- HiFi RecPROXY Tx -->
+    <path name="afe-proxy-record">
+        <ctl name="MultiMedia1 Mixer AFE_PCM_TX" value="1" />
+    </path>
+
     <!-- HiFi Rec Compressed -->
     <path name="audio-record-compress">
         <ctl name="MultiMedia4 Mixer SLIM_0_TX" value="1" />
@@ -247,25 +253,20 @@
         <path name="compress-voip-call-bt-sco-tx" />
     </path>
 
-    <!-- (Not provided by HTC) -->
+    <!-- UL REC -->
     <path name="incall-rec-uplink">
         <ctl name="MultiMedia1 Mixer VOC_REC_UL" value="1" />
     </path>
 
-    <!-- (Not provided by HTC) -->
+    <!-- DL REC -->
     <path name="incall-rec-downlink">
         <ctl name="MultiMedia1 Mixer VOC_REC_DL" value="1" />
     </path>
 
-    <!-- (Not provided by HTC) -->
+    <!-- UL DL REC -->
     <path name="incall-rec-uplink-and-downlink">
         <path name="incall-rec-uplink" />
         <path name="incall-rec-downlink" />
-    </path>
-
-    <!-- HiFi RecPROXY Tx -->
-    <path name="afe-proxy-record">
-        <ctl name="MultiMedia1 Mixer AFE_PCM_TX" value="1" />
     </path>
 
     <!-- These are actual sound device specific mixer settings -->
